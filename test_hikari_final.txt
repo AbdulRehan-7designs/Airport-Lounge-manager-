@@ -1,0 +1,58 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.alm:airport-lounge-manager >-------------------
+[INFO] Building airport-lounge-manager Maven Webapp 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ airport-lounge-manager ---
+[INFO] Deleting C:\Users\mohdr\.gemini\antigravity\scratch\airport-lounge-manager\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ airport-lounge-manager ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ airport-lounge-manager ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 46 source files to C:\Users\mohdr\.gemini\antigravity\scratch\airport-lounge-manager\target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ airport-lounge-manager ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\mohdr\.gemini\antigravity\scratch\airport-lounge-manager\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ airport-lounge-manager ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to C:\Users\mohdr\.gemini\antigravity\scratch\airport-lounge-manager\target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ airport-lounge-manager ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.alm.config.RoleTest
+[INFO] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 s -- in com.alm.config.RoleTest
+[INFO] Running com.alm.dao.DBAlignmentTest
+Initializing HikariCP pool with URL: jdbc:mysql://localhost:3306/alm and Driver: com.mysql.cj.jdbc.Driver
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.489 s -- in com.alm.dao.DBAlignmentTest
+[INFO] Running com.alm.dao.PassengerDAOTest
+Initializing HikariCP pool with URL: jdbc:h2:mem:passdb;DB_CLOSE_DELAY=-1;MODE=MySQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH and Driver: org.h2.Driver
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.249 s -- in com.alm.dao.PassengerDAOTest
+[INFO] Running com.alm.service.AuthServiceTest
+Initializing HikariCP pool with URL: jdbc:h2:mem:authdb;DB_CLOSE_DELAY=-1;MODE=MySQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH and Driver: org.h2.Driver
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in com.alm.service.AuthServiceTest
+[INFO] Running com.alm.util.PasswordUtilTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in com.alm.util.PasswordUtilTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 81, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.402 s
+[INFO] Finished at: 2026-02-22T17:39:08+05:30
+[INFO] ------------------------------------------------------------------------

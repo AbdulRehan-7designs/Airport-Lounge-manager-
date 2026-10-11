@@ -1,0 +1,8 @@
+# Database configuration (copy to db.properties and set values)
+# Optional: application uses env vars (DB_URL, DB_USER, DB_PASSWORD, DB_DRIVER) or system properties first.
+# Passwords in users table must be stored hashed (see com.alm.util.PasswordUtil).
+
+db.url=jdbc:mysql://localhost:3306/alm
+db.user=root
+db.password=
+db.driver=com.mysql.cj.jdbc.Driver

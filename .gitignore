@@ -1,0 +1,24 @@
+# ── Build output ─────────────────────────────────────────────────────────────
+target/
+
+# ── IDE files ─────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# ── Credentials — NEVER commit these ─────────────────────────────────────────
+src/main/resources/db.properties
+
+# ── Compiled class files in source tree (stray artifacts) ────────────────────
+src/**/*.class
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+test_output.txt
